@@ -55,30 +55,35 @@ gridless/
 ```
 
 ## Tech Stack
-🔧 Technologies & Browser APIs Used
-🌐 Core Web Technologies
-HTML5
-Used for creating a semantic and structured layout of the application.
-CSS3
-Handles styling, responsive design, gradients, animations, and visual effects to enhance UI/UX.
-Vanilla JavaScript
-Implements core functionality, interactivity, and application logic without external libraries.
-📡 Browser APIs & Features
-Geolocation API
-Detects and displays the user’s real-time location coordinates.
-LocalStorage
-Stores SOS status and alert data persistently across browser sessions.
-SessionStorage
-Generates and maintains a unique node ID for each session.
-BroadcastChannel API
-Enables communication between different tabs/windows of the app to share SOS alerts in real time.
-Web Audio API
-Produces emergency sounds such as beeps or sirens for alert notifications.
-🎨 UI & Design Elements
-SVG Icons
-Lightweight and scalable graphics for navigation and interface elements.
-Google Fonts (Share Tech Mono)
-Provides a tactical, terminal-style aesthetic for the application.
+## 🛠️ Technologies & APIs Used
+
+### 🌐 Core Technologies
+- **HTML5** – Semantic page structure and content organization  
+- **CSS3** – Styling, responsive layouts, animations, gradients, and visual effects  
+- **Vanilla JavaScript** – Application logic and interactive functionality  
+
+### 📡 Browser APIs
+- **Geolocation API** – Detects and displays user location coordinates  
+- **LocalStorage** – Saves SOS alerts and status persistently  
+- **SessionStorage** – Generates and stores a unique node ID per session  
+- **BroadcastChannel API** – Enables real-time SOS communication across app tabs/pages  
+- **Web Audio API** – Generates emergency siren/beep sounds for alerts  
+
+### 🎨 UI & Design
+- **SVG Icons** – Lightweight, scalable interface graphics  
+- **Google Fonts (Share Tech Mono)** – Tactical, terminal-inspired typography for a modern UI  
+
+## ✨ Features
+✅ Real-time location detection  
+✅ SOS alert broadcasting  
+✅ Persistent emergency status tracking  
+✅ Unique session-based node identification  
+✅ Emergency sound notifications  
+✅ Responsive and modern tactical UI  
+
+## 🚀 Purpose
+This project is designed to provide a browser-based emergency communication system using modern web technologies and built-in browser APIs for fast, lightweight, and accessible emergency response simulation.
+
 ## Note
 
 GRIDLESS is a simulation/prototype interface and should not be used as a replacement for real emergency services or official disaster communication systems.
