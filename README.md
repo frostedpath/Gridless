@@ -15,6 +15,7 @@ GRIDLESS is an offline-first emergency mesh communication web app for internet b
 
 ## Front End link :
 https://gridless-001.vercel.app/index.html
+PLEASE OPEN SAME LINK IN TWO DIFFERENT TAB TO TEST PROPERLY ! 
 
 ## Pages
 
