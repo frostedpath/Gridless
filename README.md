@@ -33,10 +33,24 @@ For chat testing, open `chat.html` in multiple tabs on the same laptop/browser. 
 ## Project Structure
 
 ```text
-assets/        audio and icon assets
-css/           app styling
-js/            app logic
-*.html         app pages
+gridless/
+├── index.html              ← Landing + dashboard (main entry)
+├── broadcast.html          ← Emergency broadcast board (read-only alerts)
+├── mesh.html               ← Mesh network map (visual node connections)
+├── chat.html               ← Local peer chat (simulated P2P)
+├── sos.html                ← SOS signal sender
+│
+├── css/
+│   └── styles.css          ← Global dark/terminal theme
+│
+├── js/
+│   ├── mesh-sim.js         ← Mesh network simulation logic
+│   ├── chat.js             ← LocalStorage-based chat state
+│   ├── broadcast.js        ← Alert feed rendering
+│   └── sos.js              ← SOS beacon logic + countdown
+│
+└── assets/
+    └── icons/              ← SVG icons (signal, node, warning, etc.)
 ```
 
 ## Note
