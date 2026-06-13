@@ -54,6 +54,19 @@ gridless/
     └── icons/              ← SVG icons (signal, node, warning, etc.)
 ```
 
+## Tech Stack
+Technologies and browser APIs used include:
+HTML5 - for semantic page structure
+CSS3 - for styling, animations, responsive design, gradients, and visual effects
+Vanilla - JavaScript for interactivity and application logic
+Geolocation -  API to detect and display user coordinates
+LocalStorage - to save SOS status and alerts
+SessionStorage - to generate and remember a unique node ID
+BroadcastChannel - API to share SOS messages across connected app pages
+Web Audio API - to generate emergency beep/siren sounds
+SVG icons - for lightweight navigation and interface graphics
+Google Fonts using Share Tech Mono - for a tactical, terminal-style look
+
 ## Note
 
 GRIDLESS is a simulation/prototype interface and should not be used as a replacement for real emergency services or official disaster communication systems.
