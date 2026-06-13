@@ -55,18 +55,30 @@ gridless/
 ```
 
 ## Tech Stack
-Technologies and browser APIs used include:
-HTML5 - for semantic page structure
-CSS3 - for styling, animations, responsive design, gradients, and visual effects
-Vanilla - JavaScript for interactivity and application logic
-Geolocation -  API to detect and display user coordinates
-LocalStorage - to save SOS status and alerts
-SessionStorage - to generate and remember a unique node ID
-BroadcastChannel - API to share SOS messages across connected app pages
-Web Audio API - to generate emergency beep/siren sounds
-SVG icons - for lightweight navigation and interface graphics
-Google Fonts using Share Tech Mono - for a tactical, terminal-style look
-
+🔧 Technologies & Browser APIs Used
+🌐 Core Web Technologies
+HTML5
+Used for creating a semantic and structured layout of the application.
+CSS3
+Handles styling, responsive design, gradients, animations, and visual effects to enhance UI/UX.
+Vanilla JavaScript
+Implements core functionality, interactivity, and application logic without external libraries.
+📡 Browser APIs & Features
+Geolocation API
+Detects and displays the user’s real-time location coordinates.
+LocalStorage
+Stores SOS status and alert data persistently across browser sessions.
+SessionStorage
+Generates and maintains a unique node ID for each session.
+BroadcastChannel API
+Enables communication between different tabs/windows of the app to share SOS alerts in real time.
+Web Audio API
+Produces emergency sounds such as beeps or sirens for alert notifications.
+🎨 UI & Design Elements
+SVG Icons
+Lightweight and scalable graphics for navigation and interface elements.
+Google Fonts (Share Tech Mono)
+Provides a tactical, terminal-style aesthetic for the application.
 ## Note
 
 GRIDLESS is a simulation/prototype interface and should not be used as a replacement for real emergency services or official disaster communication systems.
